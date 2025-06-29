@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    height: 60vh;
+    background-image:
+    linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5)),
+    url(../img/hero.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.hero button{
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    padding: 10px;
+    transition: all linear 0.5s;
+}
+button.pricing{
+    border-top: none;
+    border-bottom: none;
+    border-color: white;
+    border-left: solid 1px;
+    border-right: solid 1px;
+}
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+}
+.acciones{
+    display: flex;
+}
+.redes{
+    display: flex;
+}
+.navegador{
+    display: flex;
+    justify-content: flex-end;
+}
+.hero button:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+h1{
+    text-align: center;
+    padding-top: 35px;
+}
