@@ -52,14 +52,38 @@ h1{
 }
 .info{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    gap: 35px;
 }
 .descripcion{
+    height: 550px;
     display: flex;
     flex-direction: column;
-    align-content: space-around;
+    justify-content: space-around;  
+    border-top: solid gray;
+}
+.descripcion h4{
+    padding-bottom: 10px;
 }
 .equipo{
     width: 500px;
-    height: auto;
+    height: 750px;
+}
+.grupos{
+    display: flex;
+    align-content: space-around;
+    padding: 35px;
+    gap: 35px;
+    background-color: rgb(246, 248, 250);
+}
+.grupos div{
+    text-align: center;
+}
+.galeria{
+    display: flex;
+}
+.galeria img{
+    width: 25%;
 }
