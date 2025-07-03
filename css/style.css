@@ -132,13 +132,13 @@ h1{
 .item{
     width: 20%;
 }
-.sobre{
+button.sobre{
     border: none;
     border-radius: 3px;
     background-color: rgb(180, 186, 196);
     transition: all linear 0.1s;
 }
-.sobre button:hover{
+button.sobre:hover{
     transform: scale(1.05);
     background-color: rgb(210, 217, 230);
 }
