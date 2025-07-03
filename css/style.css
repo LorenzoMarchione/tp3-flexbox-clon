@@ -17,6 +17,7 @@ h1, h2, h3, nav {
     background-size: cover;
     background-position: center;
     color: white;
+    /* diseño general del hero */
 }
 .hero button{
     background-color: transparent;
@@ -26,9 +27,7 @@ h1, h2, h3, nav {
     cursor: pointer;
     padding: 10px;
     transition: all linear 0.5s;
-}
-.hero h1{
-    font-size: 70px;
+    /* diseño de botones del hero */
 }
 button.pricing{
     border-top: none;
@@ -36,6 +35,7 @@ button.pricing{
     border-color: white;
     border-left: solid 1px;
     border-right: solid 1px;
+    /* pongo bordes a los costados solo del boton del medio */
 }
 .encabezado{
     display: flex;
@@ -58,6 +58,7 @@ button.pricing{
 h1{
     text-align: center;
     padding-top: 35px;
+    font-size: 70px;
 }
 .info{
     display: flex;
@@ -72,6 +73,7 @@ h1{
     flex-direction: column;
     justify-content: space-around;  
     border-top: solid gray;
+    /* acomodar tamaño de descripcion a un costado de la imagen */
 }
 .descripcion h4{
     padding-bottom: 10px;
@@ -95,6 +97,7 @@ h1{
 }
 .galeria img{
     width: 25%;
+    /* ancho de cada imagen a 1/4 del ancho de la pagina para asegurar un buen encaje */
 }
 .proyecto{
     background-image: url("../img/fondo.jpg");
@@ -137,6 +140,7 @@ button.sobre{
     border-radius: 3px;
     background-color: rgb(180, 186, 196);
     transition: all linear 0.1s;
+    /* botones de redes sociales */
 }
 button.sobre:hover{
     transform: scale(1.05);
@@ -150,6 +154,7 @@ button.sobre:hover{
     align-items: center;
     gap: 10px;
     padding: 15px;
+    /* contenedor del input hecho a parte para mostrar el borde */
 }
 .noticias p {
     padding-bottom: 25px;
@@ -195,6 +200,7 @@ footer a{
     border-left: solid rgb(9, 191, 224);
     border-right: solid rgb(9, 191, 224);
     transition: all linear 0.1s;
+    /* uso border left y right como separador porque no sabria como poner los puntos de manera limpia */
 }
 footer a:hover{
     color: white;
